@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Welcome </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="myCSS.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="myScript.js"></script>
+
+
+</head>
+
+<body class="index">
+
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"> DynamicQWinRates </a>
+            </div>
+            <div id="myNavbar" class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Search</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html"> Contact </a> </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    
+    <p id="errorP"> </p>
+    
+    
+    
+    
+        <div class="info">
+            <div class="container-fluid">
+                <div class="btn-group btn-group-justified" role="group">
+                    <div class="btn-group" role="group" >
+                        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" >
+                            Region <span class="glyphicon glyphicon-menu-hamburger pull-right"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li> <a class="dropdown-item region" href="#" id="na">North America</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="euw">Europe West</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="eune">Europe Nordic &amp; East</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="br">Brazil</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="kr">Korea</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="tr">Turkey</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="ru">Russia</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="lan">Latin America North</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="las">Latin America South</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="jp">Japan</a></li>
+                            <li> <a class="dropdown-item region" href="#" id="oce">Oceania</a> </li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group" role="group" >
+                        <button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                            Amount Of Summoners<span class="glyphicon glyphicon-menu-hamburger pull-right"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                            <li><a class="dropdown-item amount" href="#" id="2">2</a></li>
+                            <li><a class="dropdown-item amount" href="#" id="3">3</a></li>
+                            <li><a class="dropdown-item amount" href="#" id="4">4</a></li>
+                            <li><a class="dropdown-item amount" href="#" id="5">5</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="container-fluid">
+                <form class="form-horizontal" id="frm1">
+
+                    <input name="name1" type="text" class="form-control" placeholder="Summoner Name 1">
+                    <input name="name2" class="form-control" type="text" placeholder="Summoner Name 2">
+                    <button type="submit" class="btn btn-primary submit-btn">Get Win Rate</button>
+
+                </form>
+            </div>
+            <section id="winrates">
+    
+    </section>
+
+
+
+
+        </div>
+    <h1 id="waitingText" style="display: none;"> Waiting... May take a while depending on how many games have been played together. :) </h1>
+    
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+button,
+input {
+    border-radius: 0px !important;
+    white-space: normal;
+}
+
+form {
+    margin: 0px 1px 0px 1px;
+}
+
+.submit-button {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.dropdown-toggle {
+    border-color: black !important;
+    border-width: 1px !important;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.btn {
+    white-space: normal !important;
+    width: 100%;
+}
+
+section {
+    min-height: 200px;
+    margin: 0px;
+    padding: 20px;
+    display: block;
+}
+
+section p {
+    margin: 50px;
+}
+
+.fadeback {
+    min-height: 99vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    color: rgb(229, 226, 226);
+}
+
+
+.info {
+    opacity: 1.0;
+    margin-top: 5%;
+}
+
+.index, .about, .contact {
+    height:100%;
+    width:100%;
+    background: url("assets/team_graves_2-min.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+    font-size: 4.9vw;
+    color:#00ff27;
+    font-style: bold;
+}

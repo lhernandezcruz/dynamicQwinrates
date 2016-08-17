@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> About </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="myCSS.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="myScript.js"></script>
+
+
+</head>
+
+<body class="about">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"> DynamicQWinRates </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Search</a></li>
+                <li class="active"> <a href="#"> About </a></li>
+                <li><a href="contact.html"> Contact </a> </li>
+            </ul>
+        </div>
+
+    </nav>
+    
+    <section class="fadeback">
+        <h1> How to Use </h1>
+        <p> Click region (NA by default) and the amount of summoners in the dynamic group (2 by default). Then click Get Win Rate button</p>
+    
+        <h1> How it Works</h1>
+        <p> It gets all the information using RIOT API.</p>
+   
+        <h1> What Works </h1>
+        <p> If you enter valid summoner names it works and displays winrate and games played together. </p>
+    
+        <h1> To Do </h1>
+        <p>
+            Add error catching such as entering nonsummoner names, or entering people who dont play together
+            <br> Make website look better </p>
+        
+    </section>
+
+</body>
+
+</html>
