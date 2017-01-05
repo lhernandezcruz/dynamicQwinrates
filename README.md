@@ -1,3 +1,5 @@
+# Does not work because RIOT does not do dynamic queue anymore. 
+
 # dynamicQwinrates
 Lets players find out winrates that they have as a group.
  
